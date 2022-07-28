@@ -530,17 +530,59 @@ template {
 .card__item:hover {
   box-shadow: 0 1px 20px #999;
   border-radius: 20px;
-  background-color: #333;
+  background-color: rgb(131, 94, 94);
 }
 
 .card__item:hover .card__item-span {
-  color: rgb(203, 203, 203);
+  color: rgb(255, 255, 255);
 }
 
 .card__item:hover .card__item-text {
-  color: rgb(203, 203, 203);
+  color: rgb(255, 255, 255);
 }
 
 .card__item:hover .img {
-  fill: rgb(202, 202, 202);
+  fill: rgb(255, 255, 255);
+}
+
+.wrapper-section {
+  padding: 96px 0 112px 0;
+}
+
+.wrapper__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.wrapper__top:nth-child(2) {
+  flex-direction: row-reverse;
+}
+
+.wrapper__top-img {
+  width: 500px;
+}
+
+.wrapper__top-img img {
+  width: 100%;
+}
+
+.wrapper__top-content {
+  width: 450px;
+}
+
+.wrapper__top-title {
+  font-weight: 700;
+  line-height: 46px;
+  font-size: 38px;
+  color: #0F0F0F;
+}
+
+.wrapper__top-text {
+  margin-top: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  font-size: 18px;
+  color: #0F0F0F;
 }/*# sourceMappingURL=main.css.map */

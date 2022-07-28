@@ -1,0 +1,32 @@
+.wrapper-section{
+    padding: 96px 0 112px 0;
+}
+.wrapper__top{
+    @include center (space-between);
+    width: 100%;
+}
+.wrapper__top:nth-child(2){
+    flex-direction: row-reverse;
+}
+.wrapper__top-img{
+    width: 500px;
+}
+.wrapper__top-img img{
+    width: 100%;
+}
+.wrapper__top-content{
+    width: 450px;
+}
+.wrapper__top-title{
+    font-weight: 700;
+    line-height: 46px;
+    font-size: 38px;
+    color: #0F0F0F;
+}
+.wrapper__top-text{
+    margin-top: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    font-size: 18px;
+    color: #0F0F0F;
+}
